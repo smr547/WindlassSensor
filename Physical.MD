@@ -2,12 +2,13 @@
 
 The anchor is attached to a length of heavy chain. The other end of the chain is connected to the boat at a point called the bitter end.
 The anchor is normally stowed on the bowsprit mechanically held in place by a flange at the tip of the bowprint and by tension placed on the chain by the lifting mechanism.
+
 The lifting mechanism is known as the windlass (or anchor winch or capstan).
 The windlass is comprised of a electric motor (with power supply, reversing relays and a push button control unit). The motor drives a shaft which rotates a sprocketed cog (know as a gypsy)
 which engages with the anchor chain and moves the chain (and anchor) up or down depending on the direction of rotation of the motor. 
 
 While the motor and gypsy combination is normally used for lowering the 
-anchor, a mechanical clutch on the windlass can be released to allow the gypsy to rotate freely, independent of the windlass motor. This allows a deck hand to repidly deplay the anchor 
+anchor, a mechanical clutch on the windlass can be released to allow the gypsy to rotate freely, independent of the windlass motor. This allows a deck hand to rapidly deploy the anchor 
 in an emergency situation where motorised deployment migth be too slow.
 
 A typical windlass design does not allow manual lifting of the anchor and the windlass motor must be used.
@@ -28,9 +29,11 @@ A magnetic reed switch or Hall Effect transistor is located in the windlass hous
 as it passes this sensor. The Gypsy sensor produces one pulse on every full rotation of the gypsy.
 
 ## Chain counter 
-The primary purpose of a chain counter is to report the amount of chain deployed at any time.
+The primary purpose of a chain counter is to report the length of chain deployed at any time. This is achieved by counting the pulses from the Gypsy Sensor while monitoring the state of the
+two control lines (to determine the anchor's direction of motion).
 
-The chain counter may also report
+The chain counter may also report:
+
 * State of anchor: ``Homed``, ``Deployed`` or ``in motion`` (lifting, lowering or free falling)
 * Percentage of chain deployed
 * Speed of anchor deployment (m/sec) and/or time remaining before chain hits the bottom
