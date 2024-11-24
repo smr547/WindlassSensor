@@ -37,17 +37,18 @@ The chain counter may also report:
 * State of anchor: ``Homed``, ``Deployed`` or ``in motion`` (lifting, lowering or free falling)
 * Percentage of chain deployed
 * Speed of anchor deployment (m/sec) and/or time remaining before chain hits the bottom
-* Scope of chain deployed (ratio of length of chain out to depth)
+* Scope of chain deployed (ratio of ``length of chain deployed`` to ``depth``)
 
-The chain counter may also report events of interest to an "anchor watch" system such as
+The chain counter may also report events of interest to an "anchor watch" system such as:
 
 * Deploying chain
 * Retrieving chain
 * Anchor on bottom
 * Anchor weighed off bottom
 
-Finally a chain counter may be equipped with remote ``UP`` and ``DOWN`` buttons allowing crew at the helm to control the deployment or lifting of the anchor. Typically these
-buttons operate in parallel with the corresponding buttons on the controller located next to the windlass.
+Finally a chain counter may be equipped with remote ``UP`` and ``DOWN`` buttons allowing crew at the helm to control the 
+deployment or lifting of the anchor. Typically these buttons operate in parallel with the corresponding buttons on the controller
+located next to the windlass.
 
 
 
